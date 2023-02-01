@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fave.png" type="image/x-icon">
+    <title>ROSALINA e a Música</title>
+</head>
+<body>
+    <header id="cabe">
+        <ul cass="list">
+            <img id="img2" src="logo1.png" alt="~">
+            <li class="det"><a class="hard" href="#">~Home</a></li> 
+            <li class="det"><a class="hard" href="https://www.instagram.com/rosalina.benicio_/" target="_blank">~Girl</a></li>
+            <li class="det"><a class="hard" href="https://www.instagram.com/fenio10/" target="_blank">~Creator</a></li>
+            <li class="det"><a class="hard" href="https://www.google.com/" targe="_self">~Bye</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+    </div>
+        <aside class="asidebar">
+            <nav>
+                <div class="menui">
+                    <img class="menu-item" src="logo1.png" alt="~">
+                </div>   
+                    <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="#">~Home</a></li>
+                    <li  class="menu-item"><a class="menu-link" href="https://www.instagram.com/rosalina.benicio_/" target="_blank">~Girl</a></li>
+                    <li  class="menu-item"><a class="menu-link" href="https://www.instagram.com/fenio10/" target="_blank">~Creator</a></li>
+                    <li  class="menu-item"><a class="menu-link" href="https://www.google.com/" targe="_self">~Bye</a></li>
+                </ul>
+            </nav>
+        </aside>
+    
+
+    <div class="almost">
+    <div class="foto">
+        <img class="img1" src="linda.jpg" alt="Rosalina"> 
+        
+    </div>
+    
+    <div id="t1">
+        
+        
+        <div class="players">
+            <button class="p p1" onclick="document.getElementById('player').play()">Play</button>
+            <button class="p p2" onclick="document.getElementById('player').pause()">Pause</button>
+            <button class="p p3" onclick="document.getElementById('player').volume+=0.1">Aumentar vol</button>
+            <button class="p p4" onclick="document.getElementById('player').volume-=0.1">Diminuir vol</button>
+    
+    
+        </div>
+        <section>
+            <audio id="player" autoplay="autoplay" controls="controls">
+            <source src="Eu_Quero_Papelé__Pra_meté_Djamba_.mp3" type="audio/mp3"/>
+            </audio>
+            <a class="color" href="Eu_Quero_Papelé__Pra_meté_Djamba_.mp3" download="Rosalina" target="_blank">Download</a>   
+    </section>
+</div>
+</div>
+<footer>
+    <div>~~</div>
+    <div>~~</div>
+    <div><p class="paragrafo">Baixe a Musica clicando nos 3 pontos</p> </div>
+    <div>~~</div>
+  <div class="erro"> <p class="paragrafo">@FENIO10</p> </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
